@@ -20,10 +20,9 @@ public class TodoEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public Long id;
+	private Long id;
 	@NonNull
-	public String title;
-	public String description;
-	public String toBeDoneDate;
+	private String title;
+	private String description;
 
 }
